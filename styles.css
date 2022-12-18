@@ -1,0 +1,150 @@
+body{
+    font-size: 18px;
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 60px;
+}
+
+.logo{
+    width: 25px;
+    height: 25px;
+}
+
+#hamburger-menu{
+    width: 25px;
+    height: 20px;
+}
+
+#close-menu{
+    display: none;
+    width: 25px;
+    height: 20px;
+}
+
+#menu{
+    display: none;
+    width: 280px;
+    height: auto;
+    position: absolute;
+    right: 50px;
+    top: 80px;
+    z-index: 99;
+    border: solid 1px transparent;
+    border-radius: 3px;
+    text-align: center;
+    padding: 25px 10px;
+    background-color: #fff;
+    box-shadow: -2px 3px 5px hsl(231, 7%, 65%);
+}
+
+#menu li{
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+hr{
+    width: 90%;
+    border: solid 0.5px hsl(231, 7%, 65%);
+}
+
+#menu #login{
+    margin-top: 25px;
+    margin-bottom: 0;
+    color:hsl(231, 7%, 65%);
+}
+
+.illustration-container{
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.illustration{
+    width: 280px;
+    transform: scale(1.4, 1.2) ;
+    display: block;
+    overflow-x: hidden;
+    margin-right: 0;
+    margin-left: auto;
+    object-fit: cover;
+    clip-path: polygon(0 0, 73% 0, 73% 100%, 0 100% );
+}
+
+.container-text{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.new-btn{
+    text-transform: uppercase;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border: solid 1px transparent;
+    color: hsl(207, 33%, 95%);
+    background-color: hsl(230, 29%, 20%);
+    border-radius: 50px;
+    display: inline;
+    padding: 3px 8px;
+    margin-right: 8px;
+    margin-bottom: 12px;
+    outline: none;
+}
+
+.monograph{
+    display: inline;
+    text-transform: uppercase;
+    color:hsl(231, 7%, 65%);
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.title{
+    font-size: 35px;
+    text-transform: uppercase;
+    color: hsl(230, 29%, 20%);
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.description{
+    color: hsl(230, 11%, 40%);
+    margin-bottom: 30px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+}
+
+.demo-btn{
+    border: solid 1px transparent;
+    border-radius: 5px;
+    padding: 8px 12px;
+    font-size: 12px;
+    background-color: hsl(0, 100%, 68%);
+    color: hsl(207, 33%, 95%);
+    display: inline;
+    text-transform: uppercase;
+    font-family: "Barlow Condensed", sans-serif;
+    margin-right: 15px;
+    margin-bottom: 100px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    outline: none;
+}
+
+.demo{
+    display: inline;
+    text-transform: uppercase;
+    font-size: 12px;
+    color:hsl(231, 7%, 65%);
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
